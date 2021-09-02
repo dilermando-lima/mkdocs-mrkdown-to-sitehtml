@@ -17,12 +17,13 @@ src/docs/static/*            | Diretório para centralizar as imagens e outros a
 src/docs/index.md            | Arquivo index que será utilizado como página inicial do site
 **src/mkdocs.yml**           | Arquivo onde conterá as configurações do `mkdocs`
 start-build-docs-image.bash  | Script que fará o build da imagem que terá o `mkdocs` instalado
-start-docs-in-localhost-9104.bash | Subindo nosso site na porta 9104 ( http:// localhost:9104 )
+start-docs-in-localhost-9104.bash | Scripr para Subir o nosso site na porta 9104 ( http:// localhost:9104 )
 
 
-## Subindo a documentação localmente
+## Subindo o site da documentação localmente
 
 Para subirmos este projeto localmente basta seguir os seguintes passos:
+
   - Criar a imagem docker
   - Subir um container da imagem criada
   - Testar o site localmente
@@ -39,12 +40,12 @@ Obs: É necessário ter o `docker`instalado na máquina para subir o container q
     bash ./start-docs-in-localhost-9104.bash
 ```
 ### Testar o site localmente
-Acesse o link  [http:// localhost:9104](http:// localhost:9104)
+Acesse o link  [http://localhost:9104](http://localhost:9104)
 
 
-## Alterando a documentação
+## Alterando o site de documentação
 
-Todos os paginas da documentação são originadas dos arquivos `markdown`que estão no diretório `src/docs/content/*`. Após subir o site basta apenas alterar arquivo dentro de  `src/docs/content/*` que o site será atualizado automaticamente.
+Todos os páginas da documentação são originadas dos arquivos `markdown`que estão no diretório `src/docs/content/*`. Após subir o site basta apenas alterar arquivo dentro de  `src/docs/content/*` que o site será atualizado automaticamente.
 
 
 ## Instalando o mkdocs manualmente
