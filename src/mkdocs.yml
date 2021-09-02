@@ -1,0 +1,19 @@
+site_name: doc_name
+
+use_directory_urls: false
+
+extra_css:
+    - css/css-custom.css
+
+nav:
+    - 'Home' : 'index.md'
+    - 'Fluxos' :
+        - 'Fluxo 1' : 'content/fluxos/file1.md'
+        - 'Fluxo 2' : 'content/fluxos/file2.md'
+        - 'Fluxo 3' : 'content/fluxos/file3.md'
+ 
+    - 'Projetos' : 'content/projetos/projeto1.md'
+
+    - 'Processos' :
+        - 'Processo 1' : 'content/processos/processo1.md'
+        - 'Processo 2' : 'content/processos/processo2.md'
